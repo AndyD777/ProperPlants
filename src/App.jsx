@@ -27,12 +27,12 @@ export default function App() {
         .filter((item) => item.quantity > 0)
     );
   };
+
   return (
-  <div className="app">
-<h1>🌿 Proper Plants 🌿</h1>
+    <div className="app">
+      <h1>🌿 Proper Plants 🌿</h1>
       <PlantList plants={PLANTS} addToCart={addToCart} />
       <Cart cart={cart} updateQuantity={updateQuantity} />
-  </div>
-
+    </div>
   );
 }
