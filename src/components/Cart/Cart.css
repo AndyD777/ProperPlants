@@ -1,0 +1,10 @@
+.cart {
+  margin-top: 2rem;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.cart h2 {
+  margin-bottom: 1rem;
+}
